@@ -3,7 +3,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Grid9x9 } from "./components/board";
 import { Keypad } from "./components/keypad";
-import { test1 } from "../../data/board-mocks";
 import Menubar from "./components/menubar";
 import Timer from "./components/timer";
 import {
@@ -118,12 +117,6 @@ export default function Home() {
 
     assists >= 3 && setGame("lost");
   }, [assists]);
-
-  // for testing purposes only
-  // const [cellValues, setCellValues] = useState(test1.cellValues);
-  // const [cellSolution, setCellSolution] = useState(test1.cellSolution);
-  // const [cellProtection, setCellProtection] = useState(test1.cellProtection);
-  // const [cellValuesGiven, setCellValuesGiven] = useState(test1.cellValuesGiven);
 
   return (
     <main className="px-4 py-6 w-full h-full flex justify-center">
