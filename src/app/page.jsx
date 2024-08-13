@@ -36,7 +36,7 @@ export default function Home() {
   const [cellErrors, setCellErrors] = useState(
     Array.from({ length: 9 }, () => Array(9).fill(0))
   );
-  const [game, setGame] = useState("off");
+  const [game, setGame] = useState("difficulty");
   const [difficulty, setDifficulty] = useState("easy");
   const [assists, setAssists] = useState(0);
   const [time, setTime] = useState(0);
