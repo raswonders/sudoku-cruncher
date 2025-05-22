@@ -1,6 +1,6 @@
 # Sudoku cruncher app
 
-This is sudoku solver, originally create as a HackWeekly's [hackathon project](https://github.com/Hack-Weekly/tangerine-moose-sudoku) I participated on. I improved upon it little further - adding visual polish and gaming aspect.
+Idea for this is sudoku solver, originated from HackWeekly's [hackathon project](https://github.com/Hack-Weekly/tangerine-moose-sudoku) I participated on. As core dev on team I had further improved upon it, once hackathon was over - I had turned it into a game and added some visual polish.
 
 ## Table of contents
 
@@ -15,7 +15,7 @@ This is sudoku solver, originally create as a HackWeekly's [hackathon project](h
 
 ## Overview
 
-Original idea was a sudoku solver and generator with a backend implementing our own backtracking algorithm. In the end we agreed on a backend using sudoku solving binary, that can solve and generate sudoku boards with various difficulty.
+Original idea was a sudoku solver and generator with a backend implementing our own backtracking algorithm. Due to lack of resources and time we have decided to use sudoku solving binary on backend, that can solve and generate sudoku boards with various difficulty.
 
 ### Screenshot
 
